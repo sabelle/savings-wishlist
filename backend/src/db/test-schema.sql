@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS bootstrap;
+
+CREATE TABLE IF NOT EXISTS bootstrap.connection_test (
+  id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  created_at timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

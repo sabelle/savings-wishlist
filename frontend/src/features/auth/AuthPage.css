@@ -1,0 +1,13 @@
+.auth-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.auth-form label + input {
+  margin-bottom: 0.25rem;
+}
+
+.auth-form button {
+  justify-self: start;
+  margin-top: 0.5rem;
+}
